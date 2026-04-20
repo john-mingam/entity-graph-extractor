@@ -1,0 +1,46 @@
+{
+  "$schema": "../dist/mcpb-manifest.schema.json",
+  "manifest_version": "0.3",
+  "name": "entity-graph-extractor",
+  "display_name": "Entity Graph Extractor",
+  "version": "1.0.1",
+  "description": "Entity-first SEO analysis for salience scoring, entity gaps, RDF triplets, and Mermaid graph output.",
+  "author": {
+    "name": "johnmingam"
+  },
+  "server": {
+    "type": "python",
+    "entry_point": "bootstrap.py",
+    "mcp_config": {
+      "command": "/opt/homebrew/bin/python3",
+      "args": [
+        "${__dirname}/bootstrap.py"
+      ],
+      "env": {
+        "ENTITY_GRAPH_USER_AGENT": "Entity-Graph-Extractor/1.0"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "extract_entity_graph",
+      "description": "Analyze text or HTML into entity salience, semantic gaps, RDF triplets, schema candidates, and Mermaid output."
+    }
+  ],
+  "keywords": [
+    "entity seo",
+    "semantic search",
+    "knowledge graph",
+    "json-ld",
+    "mermaid",
+    "schema.org"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ]
+  }
+}

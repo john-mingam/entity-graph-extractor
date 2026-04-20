@@ -1,0 +1,22 @@
+{
+  "dominant_entity": "iPhone 15",
+  "salience": [
+    {
+      "entity": "iPhone 15",
+      "score": 0.98,
+      "evidence": ["title", "opening passage"]
+    }
+  ],
+  "entity_gaps": ["USB-C", "A16 Bionic", "Apple"],
+  "rdf_triplets": [
+    {
+      "subject": "iPhone 15",
+      "predicate": "hasFeature",
+      "object": "USB-C Port",
+      "evidence": "iPhone 15 hasFeature USB-C Port"
+    }
+  ],
+  "schema_org_candidates": ["Product"],
+  "mermaid": "graph TD\n  iPhone_15[\"iPhone 15\"]\n  USB_C_Port[\"USB-C Port\"]\n  iPhone_15 -->|hasFeature| USB_C_Port",
+  "analysis_summary": "Dominant entity: iPhone 15. 3 expected entities are missing. 1 RDF-style triplet was generated."
+}
