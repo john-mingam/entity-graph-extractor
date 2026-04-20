@@ -203,3 +203,11 @@ If you still see a runtime error, check `server_runtime` in the response to conf
 ## License
 
 MIT
+
+---
+
+## Author
+
+John Mingam
+
+Website: https://johnmingam.com
