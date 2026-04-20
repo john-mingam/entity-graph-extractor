@@ -6,7 +6,6 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3YxOWpqY2Q3OW9vd2QxZmx1eHh2aTBzMW9zbnppMmViNnBrYnJ6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZVik7pBtu9dNS/giphy.gif" width="920" alt="Entity Graph Extractor Demo" />
 </p>
 
-<p align="center"><i>Demo: entity extraction, typed relations, gap report, and Mermaid graph output.</i></p>
 
 <p align="center">
   <img alt="Claude Extension" src="https://img.shields.io/badge/Claude-Extension-101828?style=for-the-badge">
